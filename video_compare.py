@@ -18,7 +18,7 @@ videohash2 = VideoHash(url=url2)
 # Calculate the difference between the video hashes
 hash_difference = videohash2 - videohash1
 
-# Assuming the maximum possible difference is 100 (you can adjust this based on the expected range)
+# Assuming the maximum possible difference is 100
 max_difference = 100.0
 
 # Calculate the similarity score out of 100
